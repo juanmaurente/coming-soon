@@ -15,7 +15,7 @@ The Stomble Coming Soon Page project involves the design and development of a ca
 
 ## Design Guidelines
 
-The design of the "Coming Soon" page strictly adheres to the color schemes, font styling, and visual elements as provided by our designers. These design choices are aimed at ensuring brand consistency and a polished user experience.
+The design of the "Coming Soon" page strictly adheres to the color schemes, font styling, and visual elements as provided by our designers for the app that is being developed. These design choices are aimed at ensuring brand consistency and a polished user experience. 
 
 ## Getting Started
 
