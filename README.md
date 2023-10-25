@@ -37,3 +37,11 @@ This will launch the project locally, allowing you to preview and make further c
 License
 This project is open-source and is under the MIT License.
 
+----------
+
+Colors: Main UI
+Bckground: #080816
+Navbar: #10102C
+Banner: #232637
+Primary: .blue-700 #1D4ED8
+Secondary: .blue-400 #60A5FA

@@ -1,9 +1,20 @@
 import './App.css';
 import Lottie from 'lottie-react'; // Import AnimationConfigWithData
+import { gsap } from 'gsap';
 
 import animationData from '../src/assets/ComingSoonBackground (1).json';
+import { useEffect, useRef } from 'react';
 
-function App() {
+const App = () => {
+	useEffect(() => {
+		gsap.to('.comingSoon', {
+			duration: 1,
+			opacity: 0,
+			repeat: -1,
+			yoyo: true,
+		});
+	}, []);
+
 	return (
 		<>
 			<div className='container'>
@@ -52,13 +63,19 @@ function App() {
 						</svg>
 					</div>
 					<p>
-						Something <span>Awsome</span> is
-						<span className='coming-soon'> coming soon.</span>
+						Something awsome is {''}
+						<span className='comingSoon'>
+							coming{' '}
+							<span className='comingSoon letter--1'>s</span>
+							<span className='comingSoon letter--2'>o</span>
+							<span className='comingSoon letter--3'>o</span>
+							<span className='comingSoon letter--4'>n</span>.
+						</span>
 					</p>
 				</div>
 			</div>
 		</>
 	);
-}
+};
 
 export default App;
